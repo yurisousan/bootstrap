@@ -21,7 +21,7 @@ cli-tools:
 	@sudo systemctl enable docker.service
 	@sudo systemctl enable containerd.service
     # Install TFEnv
-    @git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+    	@git clone https://github.com/tfutils/tfenv.git ~/.tfenv
 	@echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.profile 
 	@tfenv install latest
 	@tfenv use latest
