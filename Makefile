@@ -72,3 +72,4 @@ terminal-tools:
 	@sudo apt install zsh-syntax-highlighting
 	@echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 	@git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+	@source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
